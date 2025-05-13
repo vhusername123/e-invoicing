@@ -41,4 +41,4 @@ root.extend(newElementObjectlist(FIXED_DATA))
 
 
 tree = ET.ElementTree(root)
-tree.write("newFullnewXRechnung.xml",xml_declaration=True)
+tree.write(".generated/newFullnewXRechnung.xml",xml_declaration=True,encoding="UTF-8")

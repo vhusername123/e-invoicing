@@ -13,4 +13,4 @@ ET.register_namespace('cac','urn:oasis:names:specification:ubl:schema:xsd:Common
 ET.register_namespace('cbc','urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2')
 
 tree = ET.parse("XRechnungBeispiel.xml")
-tree.write("newXRechnungBeispiel.xml")
+tree.write(".generated/newXRechnungBeispiel.xml")
