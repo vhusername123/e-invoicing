@@ -9,7 +9,8 @@
     <cbc:DueDate>2024-10-30</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:BuyerReference>KST</cbc:BuyerReference> <!-- Käuferreferenz vom Käufer zugewiesener Bezeichner (z.b. Kostenstelle)-->
+    <cbc:BuyerReference>KST</cbc:BuyerReference> <!-- Käuferreferenz vom Käufer zugewiesener Bezeichner
+    (z.b. Kostenstelle)-->
     <cac:AccountingSupplierParty>
         <cac:Party>
             <cbc:EndpointID schemeID="EM">test@test.de</cbc:EndpointID>
