@@ -96,6 +96,9 @@
         <cbc:ID>1</cbc:ID>
         <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
         <cbc:LineExtensionAmount currencyID="EUR">100.00</cbc:LineExtensionAmount>
+        <cac:Delivery> <!-- optional wenn actual delivery date abweicht -->
+            <cbc:ActualDeliveryDate>2002-01-01</cbc:ActualDeliveryDate>
+        </cac:Delivery>
         <cac:Item>
             <cbc:Description>Produkt X</cbc:Description>
             <cbc:Name>Testprodukt</cbc:Name>
@@ -109,6 +112,14 @@
                     <cbc:ID>VAT</cbc:ID>
                 </cac:TaxScheme>
             </cac:ClassifiedTaxCategory>
+            <cac:AdditionalItemProperty> <!--  optional zum einrichten von Zeiträumen etc.-->
+                <cbc:Name>Leistungszeitraum</cbc:Name>
+                <cbc:ValueQuantity unitCode="DAY">30</cbc:ValueQuantity>
+                <cac:UsabilityPeriod>
+                    <cbc:StartDate>2020-12-01</cbc:StartDate>
+                    <cbc:EndDate>2020-12-31</cbc:EndDate>
+                </cac:UsabilityPeriod>
+            </cac:AdditionalItemProperty>
         </cac:Item>
         <cac:Price>
             <cbc:PriceAmount currencyID="EUR">100.00</cbc:PriceAmount>
