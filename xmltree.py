@@ -1,13 +1,17 @@
 import xml.etree.ElementTree as ET
-def newElement(tag,text):
-    temp = ET.Element(tag)
+def newElement(tag,text,attr = {}):
+    temp = ET.Element(tag, attrib=attr)
     temp.text = text
     return temp
+
 def newElementObjectlist(tagtextsobjectlist):
     templist = []
     for tagtextpair in tagtextsobjectlist:
-        temp = ET.Element(tagtextpair["tag"])
-        temp.text = tagtextpair["text"]
+        if tagtextpair["attr"]:
+            attribut = tagtextpair["attr"]
+        else:
+            attribut = {}
+        temp = newElement(tagtextpair["tag"],tagtextpair["text"],attribut)
         templist.append(temp)
     return templist
 NAMESPACES_XML = {
