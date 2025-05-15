@@ -49,7 +49,7 @@ Payment Code (Zahlung)
 |46|Interbank debit transfer||
 |47|Home-banking debit transfer||
 |48|Bank card|Use for all payment cards|
-|49|Direct debit||
+|49|Direct debit| Sepa: Core  (standard sepa)|
 |50|Payment by postgiro||
 |51|FR, norme 6 97-Telereglement CFONB (French Organisation for||
 |52|Urgent commercial payment||
@@ -58,8 +58,8 @@ Payment Code (Zahlung)
 |55|Debit card||
 |56|Bankgiro||
 |57|Standing agreement|Contractual payment means|
-|58|SEPA credit transfer|SEPA|
-|59|SEPA direct debit|SEPA|
+|58|SEPA credit transfer|SEPA B2B|
+|59|SEPA direct debit|SEPA  B2B|
 |60|Promissory note||
 |61|Promissory note signed by the debtor||
 |62|Promissory note signed by the debtor and endorsed by a bank||
