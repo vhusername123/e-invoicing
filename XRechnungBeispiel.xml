@@ -8,7 +8,7 @@
     <cbc:IssueDate>2024-10-10</cbc:IssueDate>
     <cbc:DueDate>2024-10-30</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-    <cbc:Note></cbc:Note> <!-- Hier kann man anmerkung wie den Sepa Lastschrift Einzug einfügen-->
+    <cbc:Note>Just not to be empty</cbc:Note> <!-- Hier kann man anmerkung wie den Sepa Lastschrift Einzug einfügen-->
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
     <cbc:BuyerReference>KST</cbc:BuyerReference> <!-- Käuferreferenz vom Käufer zugewiesener Bezeichner
     (z.b. Kostenstelle)-->
@@ -63,10 +63,10 @@
     </cac:AccountingCustomerParty>
     <cac:PaymentMeans>
         <cbc:PaymentMeansCode>58</cbc:PaymentMeansCode>
-        <cac:PayerFinancialAccount>
+        <!-- <cac:PayerFinancialAccount>
             <cbc:ID></cbc:ID>
             <cbc:Name></cbc:Name>
-        </cac:PayerFinancialAccount>
+        </cac:PayerFinancialAccount> -->
         <cac:PayeeFinancialAccount>
             <cbc:ID>DE02120300000000202051</cbc:ID>
             <cbc:Name>Beispielunternehmen GmbH</cbc:Name>
